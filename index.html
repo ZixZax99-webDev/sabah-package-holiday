@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakej percutian Sabah</title>
+    <style>
+        body {
+            background-image: url(./images/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #99BC85;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 300px 1fr;
+            margin-top: 100px;
+            gap: 30px;
+        }
+
+        .header {
+            grid-column: span 4;
+            text-align: center;
+            font-size: 3em;
+            font-family: "Rouge Script", cursive;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .item {
+            width: 300px;
+            height: 450px;
+            background-color: rgba(253, 250, 246, 0.8);
+            border-radius: 20px;
+        }
+
+        h2 {
+            font-family: "Delius", cursive;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .list {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            list-style: none;
+        }
+
+        li {
+            margin-top: 5px;
+        }
+
+        .price {
+            text-align: center;
+            font-size: 2em;
+            font-family: "Delius", cursive;
+            font-weight: 100;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pakej Percutian Sabah</h1>
+        </div>
+        <div class="item package1">
+            <img src="./images/mabul-01.jpg"/>
+            <h2 class="title">4H3M Mabul Semporna [Lengkap Flight]</h2>
+            <ul class="list">
+                <li>🏨Water Chalet</li>
+                <li>⭐2025</li>
+            </ul>
+            <h3 class="price">🏷️RM1690/PAX</h3>
+        </div>
+        <div class="item package2">
+            <img src="./images/mabul-02.jpg"/>
+            <h2 class="title">4H3M Pulau Mabul (5 Pulau) [Tanpa Flight]</h2>
+            <ul class="list">
+                <li>🏨3 Bintang</li>
+                <li>⭐Ground</li>
+            </ul>
+            <h3 class="price">🏷️RM860/PAX</h3>
+        </div>
+        <div class="item package3">
+            <img src="./images/kundasang-01.jpg"/>
+            <h2 class="title">4H3M KK - Kundasang [Tanpa Flight]</h2>
+            <ul class="list">
+                <li>🏨3 Bintang</li>
+                <li>⭐Ground</li>
+            </ul>
+            <h3 class="price">🏷️RM569/PAX</h3>
+        </div>
+        <div class="item package4">
+            <img src="./images/kundasang-02.jpg"/>
+            <h2 class="title">3H2M KK - Kundasang [Tanpa Flight]</h2>
+            <ul class="list">
+                <li>🏨3 Bintang</li>
+                <li>⭐Ground</li>
+            </ul>
+            <h3 class="price">🏷️RM499/PAX</h3>
+        </div>
+    </div>
+</body>
+</html>
